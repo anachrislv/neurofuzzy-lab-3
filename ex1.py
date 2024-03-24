@@ -13,7 +13,7 @@ class Net(nn.Module):
         x = self.output_layer(x)
         return x
 
-# Define the function you want to approximate
+# Define the function I want to approximate
 def function(x):
     if x < -2:
         return -x - 2
